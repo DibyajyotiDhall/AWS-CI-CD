@@ -13,7 +13,7 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - pip install -r requirements.txt
-      - docker login -u $DOCKER_REGISTRY_USERNAME -P $DOCKER_REGISTRY_PASSWORD
+      - docker login -u $DOCKER_REGISTRY_USERNAME -p $DOCKER_REGISTRY_PASSWORD
   build:
     commands:
       - echo "Running tests..."
