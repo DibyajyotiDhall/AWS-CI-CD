@@ -2,6 +2,8 @@
 
 This project demonstrates how to set up a continuous deployment pipeline for a Flask application using various AWS services.
 
+![Pipeline Screenshot](https://example.com/path/to/your/screenshot.png)
+
 ## Prerequisites
 
 Before getting started, make sure you have the following in place:
