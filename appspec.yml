@@ -5,7 +5,7 @@ hooks:
   ApplicationStop:
     - location: stop_container.sh
       timeout: 300
-      runas: root
+      runas: root #running the script as root user so the docker commnads run without sudo.
   AfterInstall:
     - location: start_container.sh
       timeout: 300
